@@ -2,35 +2,74 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+excerpt: "Publications by Liuyuan Wen in artificial intelligence and physics."
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+Artificial Intelligence
+======
 
-{% include base_path %}
+<div class="publication-list publication-list--full">
+  <article class="publication-item">
+    <span class="publication-year">2026</span>
+    <div>
+      <h3>The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models</h3>
+      <p><strong>Liuyuan Wen</strong>, Xun Zhu, Lihao Huang, Wenbin Li, Yang Gao<br><em>Proceedings of the 43rd International Conference on Machine Learning (ICML)</em>, 2026.</p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2606.03645">arXiv</a><a href="https://github.com/RL-MIND/Shape-of-Addition">Code</a></p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <span class="publication-year">2024</span>
+    <div>
+      <h3>Out-Of-Distribution Detection for Audio-visual Generalized Zero-Shot Learning: A General Framework</h3>
+      <p><strong>Liuyuan Wen</strong><br><em>Proceedings of the 35th British Machine Vision Conference (BMVC)</em>, 2024.</p>
+      <p class="publication-links"><a href="https://bmvc2024.org/proceedings/537/">Paper</a><a href="https://github.com/liuyuan-wen/AV-OOD-GZSL">Code</a></p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <span class="publication-year">2024</span>
+    <div>
+      <h3>Negative Adjustment for Contrastive Learning in Audio-Visual Generalized Zero-Shot Learning</h3>
+      <p><strong>Liuyuan Wen</strong><br><em>International Conference on Neural Information Processing (ICONIP)</em>, 2024, pp. 1–15.</p>
+      <p class="publication-links"><a href="https://link.springer.com/chapter/10.1007/978-981-96-6951-6_1">Paper</a></p>
+    </div>
+  </article>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+Physics
+======
 
-
-
+<div class="publication-list publication-list--full">
+  <article class="publication-item">
+    <span class="publication-year">2025</span>
+    <div>
+      <h3>Relativistic Dynamics of Charmonia in Strong Magnetic Fields</h3>
+      <p><strong>Liuyuan Wen</strong>, Meijian Li, Yiyu Zhou, Yang Li, James P. Vary<br><em>Physical Review D</em> 112, 014019 (2025).</p>
+      <p class="publication-links"><a href="https://doi.org/10.1103/dnq8-ncd7">DOI</a></p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <span class="publication-year">2023</span>
+    <div>
+      <h3>Bottomonium Sequential Suppression and Strong Heavy-Quark Potential in Heavy-Ion Collisions</h3>
+      <p><strong>Liuyuan Wen</strong>, Baoyi Chen<br><em>Physics Letters B</em> 839, 137774 (2023).</p>
+      <p class="publication-links"><a href="https://doi.org/10.1016/j.physletb.2023.137774">DOI</a></p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <span class="publication-year">2022</span>
+    <div>
+      <h3>Probe the Color Screening in Proton-Nucleus Collisions with Complex Potentials</h3>
+      <p><strong>Liuyuan Wen</strong>, Xiaojian Du, Shuzhe Shi, Baoyi Chen<br><em>Chinese Physics C</em> 46, 114102 (2022).</p>
+      <p class="publication-links"><a href="https://doi.org/10.1088/1674-1137/ac7fe6">DOI</a></p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <span class="publication-year">2022</span>
+    <div>
+      <h3>B<sub>c</sub><sup>+</sup> Formation from Random Charm and Anti-Bottom Quarks in the Quark-Gluon Plasma</h3>
+      <p>Baoyi Chen, <strong>Liuyuan Wen</strong>, Yunpeng Liu<br><em>Physics Letters B</em> 834, 137448 (2022).</p>
+      <p class="publication-links"><a href="https://doi.org/10.1016/j.physletb.2022.137448">DOI</a></p>
+    </div>
+  </article>
+</div>

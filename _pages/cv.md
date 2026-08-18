@@ -1,64 +1,69 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
+excerpt: "Curriculum vitae of Liuyuan Wen."
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+**Nanjing University**, Suzhou, China<br>
+Ph.D. student in Computer Science and Technology, School of Intelligence Science and Technology, 2025–Present<br>
+Advisor: Prof. Wenbin Li
+
+**University of Science and Technology of China**, Hefei, China<br>
+M.S. in Physics, School of Physical Sciences, 2022–2025<br>
+Advisor: Prof. Yang Li
+
+**Tianjin University**, Tianjin, China<br>
+B.S. in Applied Physics, School of Science, 2018–2022<br>
+GPA: 3.68/4.00; Rank: 6/60. Advisor: Prof. Baoyi Chen
+
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Large Language Models and Mechanistic Interpretability** — Nanjing University, 2024–Present<br>
+Study the internal geometry and computation of large language models, with an emphasis on interpretable reasoning and reliable arithmetic representations. Supervised by Prof. Wenbin Li.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Audio-Visual Generalized Zero-Shot Learning** — Independent Research, 2023–2024<br>
+Developed contrastive-learning and out-of-distribution detection approaches for balancing seen- and unseen-class recognition in multimodal learning.
+
+**Relativistic Quarkonium Dynamics** — University of Science and Technology of China, 2022–2025<br>
+Investigated relativistic charmonium systems in strong magnetic fields using light-front Hamiltonian methods. Supervised by Prof. Yang Li.
+
+**High-Energy Nuclear Physics** — Tianjin University, 2020–2022<br>
+Studied heavy-quark potentials, color screening, and quarkonium production in heavy-ion collisions. Supervised by Prof. Baoyi Chen.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+I have published seven papers spanning artificial intelligence and physics, including first-author work at ICML, BMVC, and ICONIP. See the [complete publication list](/publications/) for paper, code, and DOI links.
+
+Selected Project
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+**LLM-based ECA Rule Mining Framework** — Student Lead, 2025–Present
+
+- Lead an industry-sponsored collaboration with the 716 Research Institute.
+- Fine-tune domain-specific large language models and design a multi-agent framework for mining Event–Condition–Action rules.
+
+Selected Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+
+- Third Prize, Materials Design Track, 3rd World Science Intelligence Competition, 2025.
+- Tianjin Municipal Outstanding Undergraduate Thesis, 2022 — one of five recipients from Tianjin University.
+- Outstanding Graduate, Tianjin University, 2022.
+- 79 Physics Scholarship, School of Science, Tianjin University, 2020.
+- Third Prize, 3rd “Excellence Cup” College Student Physics Experiment Competition, 2020.
+- Merit Student, Tianjin University, 2020 and 2021.
+
+Technical Skills
 ======
-* Currently signed in to 43 different slack teams
+
+- **Programming:** Python, C/C++, R, Fortran
+- **Scientific computing and tools:** Mathematica, MATLAB, LaTeX, Git
+- **Research:** machine learning experimentation, scientific visualization, literature review, technical writing, and presentation
