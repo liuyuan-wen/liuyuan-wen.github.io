@@ -41,7 +41,7 @@ Studied heavy-quark potentials, color screening, and quarkonium production in he
 Publications
 ======
 
-I have published seven papers spanning artificial intelligence and physics, including first-author work at ICML, BMVC, and ICONIP. See the [complete publication list](/publications/) for paper, code, and DOI links.
+I have published papers spanning artificial intelligence and physics, including first-author/single-author work at ICML, BMVC, and ICONIP. See the [complete publication list](/publications/) for more information.
 
 Selected Project
 ======
@@ -60,10 +60,3 @@ Selected Awards
 - 79 Physics Scholarship, School of Science, Tianjin University, 2020.
 - Third Prize, 3rd “Excellence Cup” College Student Physics Experiment Competition, 2020.
 - Merit Student, Tianjin University, 2020 and 2021.
-
-Technical Skills
-======
-
-- **Programming:** Python, C/C++, R, Fortran
-- **Scientific computing and tools:** Mathematica, MATLAB, LaTeX, Git
-- **Research:** machine learning experimentation, scientific visualization, literature review, technical writing, and presentation

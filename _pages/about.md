@@ -9,10 +9,10 @@ redirect_from:
 ---
 
 <p class="profile-intro">
-  I am a Ph.D. student in Computer Science and Technology at the School of Intelligence Science and Technology, Nanjing University, advised by Prof. Wenbin Li. My research focuses on understanding and improving intelligent systems through <strong>large language models</strong>, <strong>mechanistic interpretability</strong>, and <strong>brain-inspired artificial intelligence</strong>.
+  I am a Ph.D. student at the School of Intelligence Science and Technology, Nanjing University (NJU), advised by Prof. Wenbin Li. My research focuses on understanding and improving intelligent systems through <strong>large language models</strong>, <strong>mechanistic interpretability</strong>, and <strong>brain-inspired artificial intelligence</strong>.
 </p>
 
-Before moving into artificial intelligence, I studied applied physics at Tianjin University and physics at the University of Science and Technology of China. This interdisciplinary background continues to shape how I approach representation, reasoning, and scientific discovery in modern AI systems.
+Before transitioning into artificial intelligence, I studied physics at Tianjin University (TJU) and the University of Science and Technology of China (USTC), receiving my B.S. and M.S. in Physics, respectively. This interdisciplinary background continues to shape how I approach representation, reasoning, and scientific discovery in modern AI systems.
 
 Research Interests
 ======
